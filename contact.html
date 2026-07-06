@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Meta Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Brew Haven Cafe for reservations, questions, and feedback.">
+    <meta name="keywords" content="Cafe Contact, Coffee Shop Contact">
+    <meta name="author" content="College Internship Project">
+
+    <!-- Website Title -->
+    <title>Brew Haven Cafe | Contact</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Main Stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css?v=premium">
+</head>
+
+<body>
+
+    <!-- =========================
+         Header
+    ========================== -->
+    <header class="site-header">
+
+        <div class="container">
+
+            <nav class="navbar" aria-label="Main Navigation">
+
+                <a class="logo"
+                   href="index.html"
+                   aria-label="Brew Haven Cafe Home">
+                    Brew Haven Cafe
+                </a>
+
+                <button class="nav-toggle"
+                        type="button"
+                        aria-label="Open menu"
+                        aria-controls="primary-navigation"
+                        aria-expanded="false">
+                    <span class="nav-toggle-line"></span>
+                    <span class="nav-toggle-line"></span>
+                    <span class="nav-toggle-line"></span>
+                </button>
+
+                <ul class="nav-list" id="primary-navigation">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" aria-current="page">Contact</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- =========================
+         Main Content
+    ========================== -->
+    <main>
+
+        <!-- Contact Hero -->
+        <section class="contact-hero">
+
+            <div class="container">
+
+                <h1 class="section-title">
+                    Contact Us
+                </h1>
+
+                <p class="section-description">
+                    We'd love to hear from you. Send us your questions, feedback or reservation request.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-section">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Send a Message
+                </h2>
+
+                <form class="contact-form" action="#" method="post">
+
+                    <div class="form-group">
+
+                        <label class="form-label" for="full-name">
+                            Full Name
+                        </label>
+
+                        <input
+                            class="form-input"
+                            type="text"
+                            id="full-name"
+                            name="full-name"
+                            placeholder="Enter your full name"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label class="form-label" for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            class="form-input"
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label class="form-label" for="phone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            class="form-input"
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter your phone number">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label class="form-label" for="subject">
+                            Subject
+                        </label>
+
+                        <input
+                            class="form-input"
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="Enter message subject"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label class="form-label" for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            class="form-textarea"
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message here..."
+                            required></textarea>
+
+                    </div>
+
+                    <div
+                        class="form-message"
+                        role="status"
+                        aria-live="polite">
+                    </div>
+
+                    <button
+                        class="button button-primary"
+                        type="submit">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- =========================
+         Footer
+    ========================== -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+                &copy; 2026 Brew Haven Cafe. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <button class="scroll-to-top" type="button" aria-label="Scroll to top">
+        Top
+    </button>
+
+    <!-- Main JavaScript -->
+    <script src="assets/js/main.js" defer></script>
+
+</body>
+
+</html>
+
